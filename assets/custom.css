@@ -1,0 +1,96 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.carousel-inner img{
+    height: 90%;
+    width: 100%;
+}
+.carousel-inner h2{
+    font-weight: 500;
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+}
+.carousel-inner p{
+    font-weight: 400;
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+}
+.col-lg-4 .card{
+    margin-bottom: 40px;
+}
+.card h3{
+    font-weight: 400;
+    font-size: 32px;
+}
+.card p{
+    font-size: 16px;
+}
+.card img{
+    height:140px; 
+    width:140px;
+}
+
+.col-md-5 img{
+    height: 451px;
+    width: 451px;
+}
+.col-md-7 p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.col-md-7 h1{
+    font-weight: 400;
+    font-size: 50px;
+    color: #5a5a5a;
+    line-height: 50px;
+}
+.col-md-7 h2{
+    margin-top: 130;
+    font-weight: 400;
+    font-size: 50px;
+    color: #5a5a5a;
+    line-height: 50px;
+}
+.col-md-5{
+    box-sizing: padding-box;
+    box-sizing: 500px 500px;
+}
+.col-md-7, .col-md-5{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 84%;
+    margin-left: 8%;
+}
+footer p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer #p0{
+    margin-right: 94px;
+}
+footer #p1{
+    margin-left: 94px;
+}
+
+@media (max-width: 764px) {
+    .col-md-7 h2{
+        margin-top: 10px;
+    } 
+    footer #p0{
+        margin-right: 0px;
+        float: left;
+    }
+    footer #p1{
+        margin-left: 0px;
+    }
+    .col-md-7, .col-md-5{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
